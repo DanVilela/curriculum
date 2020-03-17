@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Currículo Web de Daniel Vilela Portela - Desenvolvedor Web iniciante">
     <title>Curriculo Web - Daniel Vilela</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
@@ -47,6 +48,10 @@
         </div>
     </header>
 
+
+    <!--Main-->
+    <!-- Menu secundario e Perfil-->
+
     <main>
         <nav class="menu-secundario">
             <ul>
@@ -58,15 +63,18 @@
         </nav>
 
 
-        <!--Perfil-->
+
         <div id="perfil">
 
-            <img src="./img/dan.jpg" />
+            <img src="./img/dan1.jpg" />
 
             <h1>Daniel Vilela</h1>
             <p>Web Developer</p>
 
         </div>
+
+
+        <!--Sobre Mim-->
 
         <section id="sobre">
 
@@ -90,7 +98,7 @@
         <!--Tecnologias-->
 
         <section id="tecnologias">
-            <h2>Tecnologias</h2>
+            <h2>TECNOLOGIAS</h2>
             <div id="cards">
                 <h4>Conhecimento básico</h4>
                 <div>
@@ -141,74 +149,90 @@
         <!--Formação-->
 
         <section id="formação">
-            <div id="direito">
-                <a>
-                    <span class="iconify" data-icon="octicon:law" data-inline="false"></span>
-                    <h3>Bacharelado em Direito</h3>
-                    <p>2011-2016</p>
-                </a>
+
+            <h1>FORMAÇÃO</h1>
+
+            <div id="faculdade">
+                <div id="direito">
+                    <a>
+                        <span class="iconify" data-icon="octicon:law" data-inline="false" style="color: black; margin-bottom: -3px;"
+                        data-width="50" data-height="50"></span>
+                        <h3>Bacharelado em Direito</h3>
+                        <p>2011-2016</p>
+                    </a>
+                </div>
+
+
+                <div id="gestao">
+                    <a>
+                        <span class="iconify" data-icon="uil:suitcase" data-inline="false"style="color: black; margin-bottom: -3px;"
+                        data-width="50" data-height="50"></span>
+                        <h3>MBA/Pós-Graduação em Gestão Empresarial</h3>
+                        <p>2017-2019</p>
+                    </a>
+                </div>
             </div>
 
 
-            <div id="gestão">
-                <a>
-                    <span class="iconify" data-icon="uil:suitcase" data-inline="false"></span>
-                    <h3>MBA/Pós-Graduação em Gestão Empresarial</h3>
-                    <p>2017-2019</p>
-                </a>
-            </div>
         </section>
 
 
         <!--Contato-->
-        <section id="contato">
-            <div id="enviar">
+        <section id="fale-conosco">
+            <div>
                 <h2> Contato</h2>
                 <p>Dúvidas, Elogios, Sugestões - Entre em contato comigo por:</p>
 
-                <a id="enviar-email" class="button" href="">
-                    <span class="iconify" data-icon="ic:outline-email" data-inline="false"></span>
-                    E-mail
-                </a>
+                <div class="contato">
+                    <a class="efeito" id="email" type="button" href="" target="_blank">
+                        <span class="iconify" data-icon="ic:outline-email" data-inline="false" style="color: white; margin-bottom: -3px;"
+                            data-width="30" data-height="20"></span>
+                        E-mail
+                    </a>
 
-                <a id="enviar-whatsapp" class="button" href="">
-                    <span class="iconify" data-icon="fa-brands:whatsapp" data-inline="false"></span>
-                    Whats App
-                </a>
+                    <a class="efeito" id="whatsapp" href="" target="_blank">
+                        <span class="iconify" data-icon="fa-brands:whatsapp" data-inline="false" style="color: white; margin-bottom: -4px;"
+                            data-width="30" data-height="20"></span>
+                        WhatsApp
+                    </a>
 
-                <div id="redes-sociais-container">
-                    <ul id="links-sociais">
-                        <li>
-                            <a href="">Linkedin </a>
-                        </li>
+                    <button type="button" class="efeito efeito-3" href="" target="_blank">
+                        <span class="iconify" data-icon="ic:outline-email" data-inline="false" style="color: white; margin-bottom: -3px;"
+                            data-width="30" data-height="20"></span>
+                        E-mail
+                    </button>
 
-                        <li>
-                            <a href="">GitHub </a>
-                        </li>
+                    
+                </div>
 
-                        <li>
-                            <a href="">Facebook </a>
-                        </li>
-
-                        <li>
-                            <a href="">Instagram </a>
-                        </li>
-                    </ul>
-
+                <div id="sociais">
+                    
+                            <a href="https://www.linkedin.com/in/danvilela" target="_blank">LINKEDIN            |</a>
+                   
+                            <a href="https://github.com/DanVilela" target="_blank">GITHUB  |</a>
+                     
+                            <a href="https://www.facebook.com/danvilela" target="_blank">FACEBOOK  |</a>
+                        
+                            <a href="https://www.instagram.com/_danvilela/" target="_blank">INSTAGRAM</a>
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-
     </main>
+
+
+    <!--Rodapé-->
+
+    <footer>
+        <div id="rodape">
+
+            <h4>&copy; 2020 - Daniel Vilela Portela. Rio de Janeiro - Brasil </h4>
+            <p>Este site foi  inteiramente construido no Visual Studio Code, utilizando diversas tecnicas com HTML, CSS
+                e Java Script; sem o uso de frameworks </p> <br>
+            <p>Fontes usadas: </p>
+
+        </div>
+
+    </footer>
 
 </body>
 
