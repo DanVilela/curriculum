@@ -120,16 +120,48 @@ main {
     color: black;
     display: flex;
     padding-top: 50px;
-    text-align: ;
+
 }
 
 /*-----Tecnologias-----*/
 
 #tecnologias {
+    width: 100%;
     margin: 110px auto;
 }
 
 
+#card-container {
+    
+    padding: 20px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    border-radius: 0 0 2px 2px;
+    justify-content: left;
+}
+
+#first-card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+#second-card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    box-sizing: border-box;
+    
+}
+
+.space {
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto
+    
+}
 
 
 /*-----Formação-----*/
