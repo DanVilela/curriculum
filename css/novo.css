@@ -1,0 +1,38 @@
+
+
+
+#enviar-contato {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border: red solid;
+}
+
+#enviar-contato span {
+    font-size: 26px;
+}
+
+#sociais {
+    list-style: none;
+    display: flex;
+    
+}
+
+#sociais li {
+    margin: 10px 0;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+   
+
+

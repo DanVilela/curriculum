@@ -4,12 +4,11 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    width: 100%;
     font-family: Georgia;
     font-size: 15px;
     font-weight: 400;
-    line-height: 1.75;
+    line-height: 1.5;
     letter-spacing: 1px;
     text-align: center; 
 }
@@ -19,6 +18,15 @@ header {
     vertical-align: middle;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: justify;
+    margin:0px 0px 60px 0px;
+    padding: 20px 70px;
+    font-weight: 200;
+    background-color: rgb(55, 99, 73);
+
+}
 
 /* Class e Ids*/ 
 
@@ -28,7 +36,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 0px;
-    background-image: repeating-linear-gradient(135deg, rgba(145, 145, 145, 0.02) 0px, rgba(145, 145, 145, 0.02) 39px,rgba(140, 140, 140, 0.02) 39px, rgba(140, 140, 140, 0.02) 57px,rgba(9, 9, 9, 0.02) 57px, rgba(9, 9, 9, 0.02) 91px,rgba(217, 217, 217, 0.02) 91px, rgba(217, 217, 217, 0.02) 119px,rgba(45, 45, 45, 0.02) 119px, rgba(45, 45, 45, 0.02) 141px,rgba(227, 227, 227, 0.02) 141px, rgba(227, 227, 227, 0.02) 184px,rgba(236, 236, 236, 0.02) 184px, rgba(236, 236, 236, 0.02) 227px,rgba(124, 124, 124, 0.02) 227px, rgba(124, 124, 124, 0.02) 244px),repeating-linear-gradient(135deg, rgba(39, 39, 39, 0.02) 0px, rgba(39, 39, 39, 0.02) 23px,rgba(2, 2, 2, 0.02) 23px, rgba(2, 2, 2, 0.02) 55px,rgba(13, 13, 13, 0.02) 55px, rgba(13, 13, 13, 0.02) 71px,rgba(44, 44, 44, 0.02) 71px, rgba(44, 44, 44, 0.02) 98px,rgba(240, 240, 240, 0.02) 98px, rgba(240, 240, 240, 0.02) 134px,rgba(182, 182, 182, 0.02) 134px, rgba(182, 182, 182, 0.02) 159px,rgba(246, 246, 246, 0.02) 159px, rgba(246, 246, 246, 0.02) 174px,rgba(157, 157, 157, 0.02) 174px, rgba(157, 157, 157, 0.02) 190px),repeating-linear-gradient(135deg, rgba(145, 145, 145, 0.02) 0px, rgba(145, 145, 145, 0.02) 35px,rgba(217, 217, 217, 0.02) 35px, rgba(217, 217, 217, 0.02) 53px,rgba(199, 199, 199, 0.02) 53px, rgba(199, 199, 199, 0.02) 70px,rgba(196, 196, 196, 0.02) 70px, rgba(196, 196, 196, 0.02) 114px,rgba(137, 137, 137, 0.02) 114px, rgba(137, 137, 137, 0.02) 143px,rgba(249, 249, 249, 0.02) 143px, rgba(249, 249, 249, 0.02) 191px,rgba(247, 247, 247, 0.02) 191px, rgba(247, 247, 247, 0.02) 239px,rgba(38, 38, 38, 0.02) 239px, rgba(38, 38, 38, 0.02) 273px),linear-gradient(90deg, rgb(69, 69, 69),rgb(3, 3, 3)) ;
+    background-image: repeating-linear-gradient(90deg, rgb(32, 32, 32) 0px, rgb(32, 32, 32) 2px,rgb(33, 33, 33) 2px, rgb(33, 33, 33) 4px,rgb(34, 34, 34) 4px, rgb(34, 34, 34) 6px,rgb(33, 33, 33) 6px, rgb(33, 33, 33) 8px,rgb(36, 36, 36) 8px, rgb(36, 36, 36) 10px,rgb(35, 35, 35) 10px, rgb(35, 35, 35) 12px,rgb(33, 33, 33) 12px, rgb(33, 33, 33) 14px,rgb(32, 32, 32) 14px, rgb(32, 32, 32) 16px,rgb(36, 36, 36) 16px, rgb(36, 36, 36) 18px,rgb(34, 34, 34) 18px, rgb(34, 34, 34) 20px,rgb(35, 35, 35) 20px, rgb(35, 35, 35) 22px,rgb(35, 35, 35) 22px, rgb(35, 35, 35) 24px);
 }
 
 #menu-principal a {
@@ -38,7 +46,7 @@ header {
 }
 
 #logo img {
-    height: 50px;
+    height: 55px;
     weight: 100px;
     padding-top: 5px;
 }
@@ -46,16 +54,19 @@ header {
 #redes-sociais {
     display: flex;
     box-sizing: border-box;
-    margin-top: 5px;
-    font-size: 26px;
+    margin-top: 8px;
+    font-size: 28px;
+}
+
+.iconify {
+    color: #fff;
 }
 
 
 /*---------Main--------*/
 
 main {
-    
-    background-image: repeating-linear-gradient(135deg, rgba(86, 86, 86, 0.02) 0px, rgba(86, 86, 86, 0.02) 22px,rgba(202, 202, 202, 0.02) 22px, rgba(202, 202, 202, 0.02) 67px,rgba(247, 247, 247, 0.02) 67px, rgba(247, 247, 247, 0.02) 113px,rgba(135, 135, 135, 0.02) 113px, rgba(135, 135, 135, 0.02) 132px,rgba(157, 157, 157, 0.02) 132px, rgba(157, 157, 157, 0.02) 153px,rgba(53, 53, 53, 0.02) 153px, rgba(53, 53, 53, 0.02) 171px,rgba(17, 17, 17, 0.02) 171px, rgba(17, 17, 17, 0.02) 181px,rgba(179, 179, 179, 0.02) 181px, rgba(179, 179, 179, 0.02) 220px),repeating-linear-gradient(135deg, rgba(58, 58, 58, 0.02) 0px, rgba(58, 58, 58, 0.02) 41px,rgba(198, 198, 198, 0.02) 41px, rgba(198, 198, 198, 0.02) 60px,rgba(176, 176, 176, 0.02) 60px, rgba(176, 176, 176, 0.02) 99px,rgba(173, 173, 173, 0.02) 99px, rgba(173, 173, 173, 0.02) 146px,rgba(164, 164, 164, 0.02) 146px, rgba(164, 164, 164, 0.02) 167px,rgba(179, 179, 179, 0.02) 167px, rgba(179, 179, 179, 0.02) 205px,rgba(228, 228, 228, 0.02) 205px, rgba(228, 228, 228, 0.02) 230px,rgba(23, 23, 23, 0.02) 230px, rgba(23, 23, 23, 0.02) 241px),repeating-linear-gradient(135deg, rgba(190, 190, 190, 0.02) 0px, rgba(190, 190, 190, 0.02) 15px,rgba(74, 74, 74, 0.02) 15px, rgba(74, 74, 74, 0.02) 45px,rgba(98, 98, 98, 0.02) 45px, rgba(98, 98, 98, 0.02) 71px,rgba(43, 43, 43, 0.02) 71px, rgba(43, 43, 43, 0.02) 95px,rgba(131, 131, 131, 0.02) 95px, rgba(131, 131, 131, 0.02) 118px,rgba(21, 21, 21, 0.02) 118px, rgba(21, 21, 21, 0.02) 130px,rgba(77, 77, 77, 0.02) 130px, rgba(77, 77, 77, 0.02) 167px,rgba(231, 231, 231, 0.02) 167px, rgba(231, 231, 231, 0.02) 189px),linear-gradient(90deg, rgb(251, 251, 251),rgb(250, 250, 250));
+    background-image:repeating-linear-gradient(135deg, rgba(236, 236, 236,0.02) 0px, rgba(236, 236, 236,0.02) 26px,rgba(210, 210, 210,0.02) 26px, rgba(210, 210, 210,0.02) 52px,rgba(184, 184, 184,0.02) 52px, rgba(184, 184, 184,0.02) 78px,rgba(158, 158, 158,0.02) 78px, rgba(158, 158, 158,0.02) 104px,rgba(131, 131, 131,0.02) 104px, rgba(131, 131, 131,0.02) 130px,rgba(105, 105, 105,0.02) 130px, rgba(105, 105, 105,0.02) 156px,rgba(79, 79, 79,0.02) 156px, rgba(79, 79, 79,0.02) 182px,rgba(53, 53, 53,0.02) 182px, rgba(53, 53, 53,0.02) 208px),repeating-linear-gradient(45deg, rgba(213, 213, 213,0.02) 0px, rgba(213, 213, 213,0.02) 26px,rgba(192, 192, 192,0.02) 26px, rgba(192, 192, 192,0.02) 52px,rgba(171, 171, 171,0.02) 52px, rgba(171, 171, 171,0.02) 78px,rgba(150, 150, 150,0.02) 78px, rgba(150, 150, 150,0.02) 104px,rgba(129, 129, 129,0.02) 104px, rgba(129, 129, 129,0.02) 130px,rgba(108, 108, 108,0.02) 130px, rgba(108, 108, 108,0.02) 156px,rgba(87, 87, 87,0.02) 156px, rgba(87, 87, 87,0.02) 182px,rgba(66, 66, 66,0.02) 182px, rgba(66, 66, 66,0.02) 208px),linear-gradient(90deg, #FFF,#FFF);
 }
 
 
@@ -63,8 +74,8 @@ main {
 
 .menu-secundario {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16pt;
-    width: 100%;
+    font-size: 25px;
+    font-weight: 20;
 }
 
 .menu-secundario ul {
@@ -74,7 +85,7 @@ main {
 }
 
 .menu-secundario ul li {
-    padding: 20px;
+    padding: 30px;
     flex-grow: 1;
     border: solid 1px transparent;
 }
@@ -95,22 +106,32 @@ main {
 
 #perfil img {
     width: 250px;
-    margin-top: 80px;
+    margin-top: 100px;
     border-radius: 30%;
+    border: 4px solid black;
 
 }
 
 #perfil h1 {
     letter-spacing: 6px;
     margin: 5px auto;
+    font-size: 40px ;
+    margin-top: 40px;
+}
 
+#perfil h1::after {
+    content: '';
+    width: 200px;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: 20px auto;
 }
 
 #perfil p {
     letter-spacing: 3px;
     margin-bottom: 300px;
-    border: solid red;
-    
+    font-size: 20px;   
 }
 
 /*-----Sobre Mim-----*/
@@ -120,66 +141,86 @@ main {
     color: black;
     display: flex;
     padding-top: 50px;
+}
 
+#sobre blockquote {
+    text-align: justify;
+    padding: 0px 70px;
+    margin-left: 135px;
+    font-size: 20px;
+    border-left: 3px solid black;
+    
+}
+
+#sobre p {
+    text-align: justify;
+    padding: 20px 70px 20px 70px;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+
+#paragrafo {
+    border-left: 2px solid red;
 }
 
 /*-----Tecnologias-----*/
 
 #tecnologias {
     width: 100%;
-    margin: 110px auto;
 }
 
 
 #card-container {
-    
-    padding: 20px;
-    border: 2px solid red;
     box-sizing: border-box;
     border-radius: 0 0 2px 2px;
     justify-content: left;
+    border-top: 2px solid rgba(0,0,0,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.3);
 }
 
-#first-card {
+.dual-cards {
     display: flex;
-    justify-content: space-around;
-    padding-top: 80px;
+    padding: 50px 0 50px 0;
     box-sizing: border-box;
+    justify-content: space-around;
 }
 
-#second-card {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 80px;
-    box-sizing: border-box;
-    
+.dual-cards h4 {
+    font-size: 20px;
 }
-
+ 
 .space {
     width: 100%;
-    justify-content: space-around;
-    margin: auto;
-    padding: auto
-    
 }
+
+.space img {
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    padding-bottom: 12px;
+}
+
+
+
 
 
 /*-----Formação-----*/
 
 #formação {
-    margin: 110px auto;
     width: 100%;
-    justify-content: center;
-    display: inline-block;
+    margin: 80px auto;
 }
 
 #faculdade {
-    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 0 0 2px 2px;
     display: flex;
-    width: 100%;
-    justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    padding: 150px 0 150px 0;
     
 }
 
@@ -189,7 +230,7 @@ main {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0px 300px;
     border: red solid;
 }
@@ -199,7 +240,7 @@ main {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0px 100px;
     border: red solid;
     
@@ -209,14 +250,8 @@ main {
 
 #fale-conosco {
     width: 100%;
-    justify-content: center;
     padding-bottom: 200px;
-    border: red solid;
-}
-
-#fale-conosco h2 {
-    padding-top: 20px;
-    font-size: 40px;
+    
 }
 
 #email {
@@ -224,15 +259,12 @@ main {
     border: none;
     color: white;
     padding: 10px 50px 10px 40px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 15px 50px;
     cursor: pointer;
-    box-sizing: border-box;
-    transition: all 400ms ease;
-    border-radius: 10px;
+
   }
 
   #whatsapp {
@@ -240,13 +272,11 @@ main {
     border: none;
     color: white;
     padding: 10px 30px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 15px 50px;
     cursor: pointer;
-    
   }
 
 
@@ -281,7 +311,6 @@ main {
   /*-----Redes Sociais-----*/
 
 #sociais {
-
     font-size: 14px;
     width: 100%;
     justify-content: center;
@@ -297,37 +326,18 @@ main {
 }
 
 #sociais a {
-    padding: 10px;
+    padding: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*----------Footer---------*/
 
 #rodape {
 
-    background-image: repeating-linear-gradient(135deg, rgba(145, 145, 145, 0.02) 0px, rgba(145, 145, 145, 0.02) 39px,rgba(140, 140, 140, 0.02) 39px, rgba(140, 140, 140, 0.02) 57px,rgba(9, 9, 9, 0.02) 57px, rgba(9, 9, 9, 0.02) 91px,rgba(217, 217, 217, 0.02) 91px, rgba(217, 217, 217, 0.02) 119px,rgba(45, 45, 45, 0.02) 119px, rgba(45, 45, 45, 0.02) 141px,rgba(227, 227, 227, 0.02) 141px, rgba(227, 227, 227, 0.02) 184px,rgba(236, 236, 236, 0.02) 184px, rgba(236, 236, 236, 0.02) 227px,rgba(124, 124, 124, 0.02) 227px, rgba(124, 124, 124, 0.02) 244px),repeating-linear-gradient(135deg, rgba(39, 39, 39, 0.02) 0px, rgba(39, 39, 39, 0.02) 23px,rgba(2, 2, 2, 0.02) 23px, rgba(2, 2, 2, 0.02) 55px,rgba(13, 13, 13, 0.02) 55px, rgba(13, 13, 13, 0.02) 71px,rgba(44, 44, 44, 0.02) 71px, rgba(44, 44, 44, 0.02) 98px,rgba(240, 240, 240, 0.02) 98px, rgba(240, 240, 240, 0.02) 134px,rgba(182, 182, 182, 0.02) 134px, rgba(182, 182, 182, 0.02) 159px,rgba(246, 246, 246, 0.02) 159px, rgba(246, 246, 246, 0.02) 174px,rgba(157, 157, 157, 0.02) 174px, rgba(157, 157, 157, 0.02) 190px),repeating-linear-gradient(135deg, rgba(145, 145, 145, 0.02) 0px, rgba(145, 145, 145, 0.02) 35px,rgba(217, 217, 217, 0.02) 35px, rgba(217, 217, 217, 0.02) 53px,rgba(199, 199, 199, 0.02) 53px, rgba(199, 199, 199, 0.02) 70px,rgba(196, 196, 196, 0.02) 70px, rgba(196, 196, 196, 0.02) 114px,rgba(137, 137, 137, 0.02) 114px, rgba(137, 137, 137, 0.02) 143px,rgba(249, 249, 249, 0.02) 143px, rgba(249, 249, 249, 0.02) 191px,rgba(247, 247, 247, 0.02) 191px, rgba(247, 247, 247, 0.02) 239px,rgba(38, 38, 38, 0.02) 239px, rgba(38, 38, 38, 0.02) 273px),linear-gradient(90deg, rgb(69, 69, 69),rgb(3, 3, 3)) ;
-    padding: 30px;
+    background-color: black;
+    padding: 40px 0 40px 0;
     color: #BEBEBE;
+    border: 2px solid red;
 }
 
 
