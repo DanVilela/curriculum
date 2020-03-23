@@ -51,10 +51,10 @@
     <main>
         <nav class="menu-secundario">
             <ul>
-                <li class="menu2"><a href="#"> Sobre</a> </li>
-                <li class="menu3"><a href="#">Tecnologias</a></li>
-                <li class="menu4"><a href="#">Formação</a></li>
-                <li class="menu5"><a href="#">Contato</a></li>
+                <li><a href="#sobre"> Sobre </a> </li>
+                <li><a href="#tecnologias"> Tecnologias </a> </li>
+                <li><a href="#formação"> Formação </a> </li>
+                <li><a href="#contato"> Contato </a> </li>
             </ul>
         </nav>
 
@@ -72,79 +72,84 @@
 
         <!--Sobre Mim-->
 
-        <section id="sobre">
+        <section class="sobre">
 
             <div>
-                <h2>SOBRE</h2>
-                <blockquote>Desenvolvedor Web Junior, entusiasmado e pronto para qualquer missão! Em busca de uma
-                    oportunidade
-                    para demonstrar o potencial de aprendizagem e curva de crescimento pessoal. A cada dia mais,
-                    buscando e aprimorando os conhecimentos sobre as mais diversas linguagens.</blockquote>
+                <h2 id="sobre">SOBRE</h2>
+                <div id="sobre-texto">
+                    <blockquote>Desenvolvedor Web Junior, entusiasmado e pronto para qualquer missão! Em busca de uma
+                        oportunidade
+                        para demonstrar o potencial de aprendizagem e curva de crescimento pessoal. A cada dia mais,
+                        buscando e aprimorando os conhecimentos sobre as mais diversas linguagens.</blockquote>
 
-                <p>
-                    Apaixonado por tecnologia, sempre gostei de desafios. Aprender a manusear, consertar e resolver
-                    problemas
-                    do computador sozinho, foram passos iniciais que evoluiram para o presente e toda a caminhada que
-                    virá daqui para frente com muita dedicação!</p>
+                    <p>
+                        Apaixonado por tecnologia, sempre gostei de desafios. Aprender a manusear, consertar e resolver
+                        problemas
+                        dos computadores sozinho, foram passos iniciais. Esses conhecimentos, evoluíram para as
+                        linguagens de programação e toda a caminhada que
+                        virá daqui para frente com muito esforço e dedicação!</p>
 
-                <p> Olá, Meu nome é Daniel Vilela Portela, tenho 27 anos e, até 03 mesês atrás, trabalhava como Advogado
-                    no
-                    Rio de Janeiro. Após pesquisar e começar a estudar sozinho Programação, me encantei com este mundo e
-                    decidi me dedicar integralmente a nova carreira. Estudo com afinco todos os dias com foco em Web,
-                    mais especificamente Front-End, dedicado a interação do usuário e criação de interfaces.</p>
-
+                    <p> Olá, meu nome é Daniel Vilela Portela, tenho 27 anos e, até 03 mesês atrás, trabalhava como
+                        Advogado
+                        no
+                        Rio de Janeiro. Após pesquisar e começar a estudar sozinho Programação, me encantei com este
+                        mundo e
+                        decidi me dedicar integralmente a nova carreira. Estudo com afinco todos os dias com foco em
+                        Web,
+                        mais especificamente Front-End, dedicado a interação do usuário e criação de interfaces.</p>
+                </div>
             </div>
         </section>
 
 
         <!--Tecnologias-->
 
-        <section id="tecnologias">
+        <section class="tecnologias">
 
-            <h2>TECNOLOGIAS</h2>
+            <h2 id="tecnologias">TECNOLOGIAS</h2>
 
             <div id="card-container">
 
-                <div class="dual-cards">
+                <div class="dual-cards" id="card1">
                     <div class="space">
-                        <img alt src="/img/html5.png" /> 
+                        <img alt src="img/html5.png" />
                         <h4>HTML5</h4>
                     </div>
 
                     <div class="space">
-                        <img alt src="/img/css3.png"/>
+                        <img alt src="img/css3.png" />
                         <h4>CSS3</h4>
                     </div>
 
-                    <div class="space">
-                        <img alt src="/img/js.png" />
+                    <div class="space" id="card2">
+                        <img alt src="img/js.png" />
                         <h4>JavaScript</h4>
                     </div>
 
                     <div class="space">
-                        <img alt src="/img/bootstrap.png" >
+                        <img alt src="img/bootstrap.png">
                         <h4> Bootstrap4 </h4>
                     </div>
                 </div>
 
                 <div class="dual-cards">
                     <div class="space">
-                        <img alt src="/img/designresponsivo.png" >
+                        <img src="img/designresponsivo.png">
                         <h4>Design Responsivo</h4>
                     </div>
 
                     <div class="space">
-                        <img alt src="/img/git.png" >
+                        <img alt src="img/git.png">
                         <h4>Git</h4>
                     </div>
 
                     <div class="space">
-                        <img alt src="/img/github.png"/>
+                        <img alt src="img/github.png" />
                         <h4>GitHub</h4>
                     </div>
 
                     <div class="space">
-                        <img alt src="/img/bash.png"/>
+                        <img alt src="img/bash.png" />
                         <h4>Bash - ShellScript</h4>
 
                     </div>
@@ -155,9 +160,9 @@
 
         <!--Formação-->
 
-        <section id="formação">
+        <section class="formacao">
 
-            <h2>FORMAÇÃO</h2>
+            <h2 id="formação">FORMAÇÃO</h2>
 
             <div id="faculdade">
                 <div id="direito">
@@ -185,13 +190,15 @@
 
 
         <!--Contato-->
-        <section id="fale-conosco">
-            <div>
-                <h2> CONTATO</h2>
+        <section class="fale-conosco-container">
+
+            <h2 id="contato"> CONTATO</h2>
+
+            <div id="fale-conosco">
                 <p>Dúvidas, Elogios, Sugestões - Entre em contato comigo por:</p>
 
-                <div class="contato">
-                    <a class="efeito" id="email" type="button" href="email:dvilelaportela@gmail.com" target="_blank">
+                <div id="contacts">
+                    <a class="efeito" id="email" href="mailto:dvilelaportela@gmail.com" target="_blank">
                         <span class="iconify" data-icon="ic:outline-email" data-inline="false"
                             style="color: white; margin-bottom: -3px;" data-width="30" data-height="20"></span>
                         E-mail
@@ -204,24 +211,17 @@
                         WhatsApp
                     </a>
 
-                    <button type="button" class="efeito efeito-3" href="" target="_blank">
-                        <span class="iconify" data-icon="ic:outline-email" data-inline="false"
-                            style="color: white; margin-bottom: -3px;" data-width="30" data-height="20"></span>
-                        E-mail
-                    </button>
-
-
                 </div>
 
                 <div id="sociais">
 
-                    <a href="https://www.linkedin.com/in/danvilela" target="_blank">LINKEDIN |</a>
+                    <a class="border" href="https://www.linkedin.com/in/danvilela" target="_blank"> LINKEDIN </a>
 
-                    <a href="https://github.com/DanVilela" target="_blank">GITHUB |</a>
+                    <a class="border" href="https://github.com/DanVilela" target="_blank"> GITHUB </a>
 
-                    <a href="https://www.facebook.com/danvilela" target="_blank">FACEBOOK |</a>
+                    <a class="border" href="https://www.facebook.com/danvilela" target="_blank"> FACEBOOK </a>
 
-                    <a href="https://www.instagram.com/_danvilela/" target="_blank">INSTAGRAM</a>
+                    <a class="border" href="https://www.instagram.com/_danvilela/" target="_blank"> INSTAGRAM</a>
                 </div>
             </div>
         </section>
@@ -236,10 +236,8 @@
             <h4>&copy; 2020 - Daniel Vilela Portela. Rio de Janeiro - Brasil </h4>
             <p>Este site foi inteiramente construido no Visual Studio Code, utilizando diversas tecnicas com HTML, CSS
                 e Java Script; sem o uso de frameworks </p> <br>
-            <p>Fontes usadas: </p>
-
+            <p>Fontes usadas: Georgia (todo o conteúdo) e Courier New (perfil e as redes sociais finais)</p>
         </div>
-
     </footer>
 
 </body>
