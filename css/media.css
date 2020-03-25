@@ -1,0 +1,719 @@
+/*----Large Device----*/
+@media screen and (max-width:1200px) {
+    
+    h2 {
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+
+
+    /*menu-principal*/
+
+
+    #logo img {
+        height: 80px;
+    }
+       
+    #redes-sociais {
+        font-size: 38px;
+    }
+    
+
+/*menu-secundario*/
+
+
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+/*-----Perfil------*/
+
+ #perfil img {
+    width: 300px;
+    margin-top: 50px;
+}
+
+#perfil h1 {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+#perfil p {
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+
+/*-----Sobre Mim-----*/
+
+
+#sobre-texto blockquote {  
+    font-size: 22px;  
+}
+
+#sobre-texto p {
+
+    font-size: 20px;
+}
+
+/*-----Tecnologias-----*/
+
+
+/*-----Formação-----*/
+
+
+#faculdade .iconify {
+    font-size: 80px;
+}
+
+#direito {
+    font-size: 25px;
+}
+
+#gestao {
+    font-size: 25px;
+}
+
+/*-----Contato-----*/
+
+
+#fale-conosco {
+    justify-content: center;
+    display: inline-block;
+
+}
+    
+
+#fale-conosco p {
+    font-size: 25px;
+}
+
+#contacts {
+    padding: 0px;
+}
+
+#email {
+    padding: 15px 103px;
+    margin:0px 20px 50px 30px;
+    
+}
+
+#whatsapp {
+    padding: 15px 84px;
+    margin:10px 20px 40px 20px;
+}
+
+#sociais a {
+    display: inline-block;
+    font-size: 15px ;
+    padding: 5px 15px;
+    margin: 80px 20px;
+}
+
+
+
+
+/*----------Footer---------*/
+
+
+footer {
+    font-size: 16px;
+}
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----Medium Device----*/
+@media screen and (max-width:767px) {
+    
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        letter-spacing: 10px;
+        padding: 5px 0px;
+        margin: 0px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+
+    /*menu-principal*/
+
+
+    #menu-principal {
+        display: block;
+        width: 100%;
+    }
+
+    #menu-principal a {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #logo img {
+        height: 80px;
+        color: #f7f5e6;
+        padding-top: 10px;
+
+    }
+       
+    #redes-sociais {
+        display: block;
+        font-size: 35px;
+        padding-top: 10px;
+        border-top: 3px solid #f7f5e6;
+    }
+    
+
+/*menu-secundario*/
+
+
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+
+    #menu-secundario ul {
+        display: inline-block;
+    }
+
+    #menu-secundario ul li {
+        padding: 5px 0px 0px 10px;
+        flex-grow: 0;
+        text-align: left;
+    }
+
+    .menu1 {
+        width: 16%;
+        display: block;
+        padding-left: 0px;
+        margin-left: 0px;
+        border-bottom: 5px solid #333a56;
+    }
+
+    .menu2 {
+        width: 34%;
+        display: block;
+        margin-left:80px;
+        border-left: 5px solid #333a56;
+        border-bottom: 5px solid #333a56;
+
+    }
+    .menu3 {
+        width: 28%;
+        display: block;
+        margin-left: 255px;
+        border-left: 5px solid #333a56;
+        border-bottom: 5px solid #333a56;
+    }
+
+    .menu4 {
+        display: block;
+        margin-left: 410px;
+        border-left: 5px solid #333a56;
+        border-bottom: 5px solid #333a56;
+    
+    }
+
+
+    
+/*-----Perfil------*/
+
+ #perfil img {
+    width: 230px;
+    margin-top: 20px;
+    border-radius: 30%;
+    border: 1px solid #333a56;
+
+}
+
+#perfil h1 {
+    letter-spacing: 5px;
+    margin: 5px 5px;
+    font-size: 50px ;
+    margin-top: 20px;
+    color: #333a56 ;
+}
+
+#perfil h1::after {
+    content: '';
+    width: 150px;
+}
+
+#perfil p {
+    letter-spacing: 5px;
+    margin-bottom: 110px;
+    font-size: 30px;  
+    color: #333a56; 
+}
+
+
+
+/*-----Sobre Mim-----*/
+
+#sobre-texto {
+    display: block;
+    margin-top: 50px;
+}
+
+#sobre-texto blockquote {
+    padding: 0px 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+    letter-spacing: 0px;
+    font-size: 22px;
+}
+
+#sobre-texto p {
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+
+
+/*-----Tecnologias-----*/
+
+
+
+.dual-cards h4 {
+    font-size: 25px;
+}
+ 
+#card1 {
+    padding-bottom: 0px;
+    display: inline-block;
+    
+}
+
+#card2 {
+    display: inline-block;
+}
+
+.space {
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.space img {
+    max-width:300px;
+    max-height:150px;
+    width: auto;
+    height: 130px;
+    padding-bottom: 10px;
+}
+
+.space::after {
+    content: '';
+    width: 200px;
+    height: 5px;
+    background: #333a56;
+    display: block;
+    margin: 20px auto;
+}
+
+    
+
+/*-----Formação-----*/
+
+
+#faculdade {
+    display: block;
+    padding: 20px 20px;
+}
+   
+
+#faculdade .iconify {
+    color: #000000;
+    font-size: 60px;
+  
+}
+
+#faculdade h4 {
+    font-size: 30px;
+}
+
+#faculdade p {
+    font-size: 30px;
+}
+
+
+#direito {
+    margin-bottom: 100px;
+}
+
+#gestao {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto;
+}
+
+
+/*-----Contato-----*/
+
+#fale-conosco {
+    justify-content: center;
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
+}
+
+#fale-conosco p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+   
+}
+
+#contacts {
+    padding: 0px;
+}
+
+#email {
+    padding: 20px 68px;
+    margin-bottom: 100px;
+}
+
+#whatsapp {
+    padding: 20px 50px;
+    margin-bottom: 100px;
+}
+
+#sociais a {
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+    font-size: 17px;
+}
+
+
+/*----------Footer---------*/
+
+footer {
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----Small Device----*/
+
+@media screen and (max-width:555px) {
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        letter-spacing: 10px;
+        padding: 5px 0px;
+        margin: 0px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+
+
+    /*menu-principal*/
+
+    #menu-principal {
+        display: block;
+        width: 100%;
+    }
+
+    #menu-principal a {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+
+    #logo img {
+        height: 70px;
+        color: #f7f5e6;
+        padding-top: 10px;
+
+    }
+       
+    #redes-sociais {
+        display: block;
+        font-size: 30px;
+        padding-top: 10px;
+        border-top: 3px solid #f7f5e6;
+    }
+    
+
+    /*menu-secundario*/
+    
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+
+    #menu-secundario ul {
+        display: block;
+        font-size: 25px;
+        width: 100%;
+    }
+
+
+    #menu-secundario ul li {
+        padding: 5px;
+        padding-left: 20px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .menu1 {
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        border: 1px solid #333a56;
+        justify-content: center;
+    }
+
+    .menu2 {
+        width: 100%;
+        display: block;
+        border: 1px solid #333a56;
+        float: none;
+        margin: 0px;
+        justify-content: center;
+    }
+    .menu3 {
+        width: 100%;
+        display: block;
+        border: 1px solid #333a56;
+        float: none;
+        margin: 0px;
+    }
+
+    .menu4 {
+        width: 100%;
+        display: block;
+        border: 1px solid #333a56;
+        float: none;
+        margin: 0px;
+        
+    }
+
+   /*Perfil*/
+
+ #perfil img {
+    width: 230px;
+    margin-top: 80px;
+    border-radius: 30%;
+    border: 1px solid #333a56;
+
+}
+
+#perfil h1 {
+    letter-spacing: 5px;
+    margin: 0px;
+    font-size: 45px ;
+    color: #333a56 ;
+}
+
+#perfil h1::after {
+    content: '';
+    width: 150px;
+}
+
+#perfil p {
+    letter-spacing: 5px;
+    margin-bottom: 110px;
+    font-size: 30px;  
+    color: #333a56; 
+}
+
+/*-----Sobre Mim-----*/
+
+#sobre-texto {
+    display: block;
+    margin-top: 50px;
+}
+
+#sobre-texto blockquote {
+    padding: 0px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+
+#sobre-texto p {
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+
+
+/*-----Tecnologias-----*/
+
+.dual-cards h4 {
+    font-size: 20px;
+}
+ 
+#card1 {
+    padding-bottom: 0px;
+    display: inline-block;
+    
+}
+
+#card2 {
+    display: inline-block;
+}
+
+.space {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.space img {
+    max-width:300px;
+    max-height:150px;
+    width: auto;
+    height: 130px;
+    padding-bottom: 10px;
+}
+
+.space::after {
+    content: '';
+    width: 160px;
+    height: 2px;
+    background: #333a56;
+    display: block;
+    margin: 20px auto;
+}
+    
+
+/*-----Formação-----*/
+
+
+#faculdade {
+    display: block;
+    padding: 20px 20px;
+}
+
+#faculdade .iconify {
+    color: #000000;
+    font-size: 70px;
+  
+}
+
+#faculdade h4 {
+    font-size: 25px;
+}
+
+#faculdade p {
+    font-size: 25px;
+}
+
+
+#direito {
+    margin-bottom: 70px;
+}
+
+#gestao {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto;
+}
+
+/*-----Contato-----*/
+
+#fale-conosco {
+    justify-content: center;
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
+}
+
+#fale-conosco p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+   
+}
+
+#contacts {
+    padding: 0px;
+}
+
+#email {
+    padding: 20px 95px;
+    margin:0px 20px 50px 20px;
+    
+}
+
+#whatsapp {
+    padding: 20px 80px;
+    margin:0px 20px 40px 20px;
+}
+
+#sociais a {
+    display: flex;
+    margin: 60px 0px;
+    padding: 10px;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+
+/*----------Footer---------*/
+
+footer {
+    letter-spacing: 1px;
+}
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+

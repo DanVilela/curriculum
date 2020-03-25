@@ -74,34 +74,28 @@ main {
 
 /*---------Menu secundario--------*/
 
-.menu-secundario {
+#menu-secundario {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 1;
 }
 
-.menu-secundario ul {
+#menu-secundario ul {
     list-style: none;
     display: flex;
     text-align: center;
 }
 
-.menu-secundario ul li {
+#menu-secundario ul li {
     padding: 30px;
     flex-grow: 1;
-    border: solid 1px transparent;
 }
 
-.menu-secundario ul li a {
+#menu-secundario ul li a {
     text-decoration: none;
     color: #333a56;
 }
 
-@media (max-width:520px) {
-    .menu-secundario ul {
-        display: block;
-    }
-}
 
 /*---------- Perfil ----------*/
 
@@ -111,7 +105,7 @@ main {
 }
 
 #perfil img {
-    width: 250px;
+    width: 260px;
     margin-top: 100px;
     border-radius: 30%;
     border: 1px solid #333a56;
@@ -122,7 +116,7 @@ main {
     letter-spacing: 8px;
     margin: 5px auto;
     font-size: 50px ;
-    margin-top: 40px;
+    margin-top: 70px;
     color: #333a56 ;
 }
 
@@ -130,14 +124,14 @@ main {
     content: '';
     width: 200px;
     height: 2px;
-    background: gray;
+    background: #333a56;
     display: block;
     margin: 20px auto;
 }
 
 #perfil p {
     letter-spacing: 3px;
-    margin-bottom: 110px;
+    margin-bottom: 170px;
     font-size: 28px;  
     color: #333a56; 
 }
@@ -146,7 +140,6 @@ main {
 
 .sobre {
     width: 100%;
-    display: flex;
     margin: 0px;
 }
 
@@ -160,17 +153,18 @@ main {
 
 }
 
-.sobre blockquote {
+#sobre-texto blockquote {
     text-align: justify;
     padding: 0px 70px;
     margin-left: 135px;
-    font-size: 20px;
+    font-size: 25px;
     border-left: 5px solid  #333a56;
+    letter-spacing: 3px;
     
     
 }
 
-.sobre p {
+#sobre-texto p {
     text-align: justify;
     padding: 20px 70px 20px 70px;
     margin-block-start: 30px;
@@ -178,10 +172,6 @@ main {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 20px;
-}
-
-#paragrafo {
-    border-left: 2px solid red;
 }
 
 /*-----Tecnologias-----*/
@@ -207,8 +197,6 @@ main {
     box-sizing: border-box;
     justify-content: space-around;
     margin: 20px;
-    
-    
 }
 
 .dual-cards h4 {
@@ -245,7 +233,6 @@ main {
     box-sizing: border-box;
     border-radius: 0 0 2px 2px;
     justify-content: left;
-    
 }
 
 #faculdade {
@@ -257,14 +244,18 @@ main {
     padding: 50px 0 50px 0;
     margin: 50px auto 50px auto;
     background-color: rgba(247, 245, 230, 0.3)
+}
 
+#faculdade .iconify {
+    color: #000000;
+    font-size: 70px;
 }
 
 #direito {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
     margin: auto;
 }
 
@@ -272,7 +263,7 @@ main {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
     margin: auto;
 }
 
@@ -307,14 +298,14 @@ main {
     background-color: #f44336;
     border: none;
     color: white;
-    padding: 10px 40px;
+    padding: 10px 45px;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 0px 100px;
     cursor: pointer;
-
   }
+
 
   #whatsapp {
     background-color: #4CAF50;
@@ -353,7 +344,7 @@ main {
 
 /*----------Footer---------*/
 
-#rodape {
+footer {
     width: 100%;
     background-color:#333a56;
     padding: 40px 0 40px 0;
