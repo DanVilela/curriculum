@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Currículo Web de Daniel Vilela Portela - Desenvolvedor Web iniciante">
     <title>Curriculo Web - Daniel Vilela</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/media.css" media="screen and (color)" />
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,8 +32,10 @@
                 </a>
 
             </div>
+            
 
             <div id="redes-sociais">
+                
                 <a href="https://www.linkedin.com/in/danvilela" target="_blank">
                     <span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"></span></a>
                 <a href="https://github.com/DanVilela" target="_blank">
@@ -50,24 +53,27 @@
     <!-- Menu secundario e Perfil-->
 
     <main>
-        <nav id="menu-secundario">
-            <ul>
-                <li><a class="menu1" href="#sobre"> Sobre </a> </li>
-                <li><a class="menu2" href="#tecnologias"> Tecnologias </a> </li>
-                <li><a class="menu3" href="#formação"> Formação </a> </li>
-                <li><a class="menu4" href="#contato"> Contato </a> </li>
-            </ul>
-        </nav>
+        <div id="corpo">
+            <span class="iconify icone-menu" id="btn-menu" data-icon="ant-design:menu-unfold-outlined" data-inline="false"></span>
+            <nav class="nav-menu" id="menu-secundario">
+                <ul>
+                    <li><a class="menu1 menu-item" href="#sobre"> Sobre </a> </li>
+                    <li><a class="menu2 menu-item" href="#tecnologias"> Tecnologias </a> </li>
+                    <li><a class="menu3 menu-item" href="#formação"> Formação </a> </li>
+                    <li><a class="menu4 menu-item" href="#contato"> Contato </a> </li>
+                </ul>
+            </nav>
 
 
 
-        <div id="perfil">
+            <div id="perfil">
 
-            <img src="./img/dan.png" alt="Daniel Vilela" />
+                <img src="./img/dan.png" alt="Daniel Vilela" />
 
-            <h1>Daniel Vilela</h1>
-            <p>Web Developer</p>
+                <h1>Daniel Vilela</h1>
+                <p>Web Developer</p>
 
+            </div>
         </div>
 
 
@@ -78,10 +84,13 @@
             <div>
                 <h2 id="sobre">SOBRE</h2>
                 <div id="sobre-texto">
-                    <blockquote><strong>Desenvolvedor Web Junior, entusiasmado e pronto para qualquer missão! Em busca de uma
-                        oportunidade
-                        para demonstrar o potencial de aprendizagem e curva de crescimento pessoal. A cada dia mais,
-                        buscando e aprimorando os conhecimentos sobre as mais diversas linguagens.</strong></blockquote>
+                    <blockquote><strong>Desenvolvedor Web Junior, entusiasmado e pronto para qualquer missão! Em busca
+                            de uma
+                            oportunidade
+                            para demonstrar o potencial de aprendizagem e curva de crescimento pessoal. A cada dia mais,
+                            buscando e aprimorando os conhecimentos sobre as mais diversas linguagens.</strong>
+                    </blockquote>
+                    
 
                     <p>
                         Apaixonado por tecnologia, sempre gostei de desafios. Aprender a manusear, consertar e resolver
@@ -90,7 +99,8 @@
                         linguagens de programação e toda a caminhada que
                         virá daqui para frente com muito esforço e dedicação!</p>
 
-                    <p> Olá, meu nome é<strong> Daniel Vilela Portela</strong>, tenho 27 anos e, até 03 mesês atrás, trabalhava como
+                    <p> Olá, meu nome é<strong> Daniel Vilela Portela</strong>, tenho 27 anos e, até 03 mesês atrás,
+                        trabalhava como
                         Advogado
                         no
                         Rio de Janeiro. Após pesquisar e começar a estudar sozinho Programação, me encantei com este
@@ -199,7 +209,7 @@
                 <div id="contacts">
                     <a class="efeito" id="email" href="mailto:dvilelaportela@gmail.com" target="_blank">
                         <span class="iconify" data-icon="ic:outline-email" data-inline="false"
-                            style="color: white; margin-bottom: -3px; margin-right: 5px ;" data-width="30"
+                            style="color: white; margin-top: 4px; margin-right: 5px ;" data-width="30"
                             data-height="20"></span>
                         E-mail
                     </a>
@@ -207,7 +217,7 @@
                     <a class="efeito" id="whatsapp" href="http://api.whatsapp.com/send?1=pt_BR&phone=55021971269010"
                         target="_blank">
                         <span class="iconify" data-icon="fa-brands:whatsapp" data-inline="false"
-                            style="color: white; margin-top: -3px; " data-width="30" data-height="20"></span>
+                            style="color: white;" data-width="30" data-height="20"></span>
                         WhatsApp
                     </a>
 
@@ -235,11 +245,11 @@
 
             <h4>&copy; 2020 - Daniel Vilela Portela. Rio de Janeiro - Brasil </h4>
             <p>Este site com foi construido inteiramente no Visual Studio Code, utilizando diversas técnicas como: HTML,
-                CSS, Java Script e Design Reponsivo; sem o uso de frameworks. </p> <br>
+                CSS, JavaScript e Design Reponsivo; sem o uso de frameworks. </p> <br>
             <p>Fontes usadas: Georgia (todo o conteúdo) e Courier New (perfil e as redes sociais finais).</p>
         </div>
     </footer>
-
+    <script src="./javascript/main.js"></script>
 </body>
 
 </html>
