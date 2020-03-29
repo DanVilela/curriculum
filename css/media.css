@@ -217,7 +217,7 @@ main {
     position: absolute;
     width: 100%;
     transition: all 0.4s;
-    margin-left: -100%;
+    margin-left: -120%;
     background-color: rgba(82, 101, 143, 0.7);
 }
 
@@ -620,11 +620,11 @@ main {
     margin-top: 10px;
     margin-left: 10px;
     letter-spacing: 0px;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 #sobre-texto p {
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -651,10 +651,10 @@ main {
 }
 
 .space img {
-    max-width:300px;
+    max-width:150px;
     max-height:150px;
     width: auto;
-    height: 130px;
+    height: 120px;
     padding-bottom: 10px;
 }
 
@@ -678,16 +678,16 @@ main {
 
 #faculdade .iconify {
     color: #000000;
-    font-size: 70px;
+    font-size: 60px;
   
 }
 
 #faculdade h4 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #faculdade p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -731,7 +731,7 @@ main {
 #sociais a {
     margin: 30px 0px;
     padding: 5px 0px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -930,13 +930,13 @@ main {
 #email {
     padding: 10px 60px;
     margin:0px 20px 50px 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #whatsapp {
     padding: 10px 40px;
     margin:0px 20px 40px 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #sociais a {
