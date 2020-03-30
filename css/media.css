@@ -207,7 +207,7 @@ main {
 
 .icone-menu img {
     display: block;
-    position: fixed;
+    position: absolute;
     max-width:50x;
     max-height:50px;
     margin-left: 0px;
@@ -216,7 +216,7 @@ main {
 
 .nav-menu {
     display: block;
-    position: fixed;
+    position: absolute;
     width: 100%;
     transition: all 0.4s;
     margin-left: -120%;
@@ -378,8 +378,8 @@ main {
 }
 
 .space img {
-    max-width:140x;
-    max-height:140px;
+    max-width:150x;
+    max-height:150px;
     width: auto;
     height: auto;
 }
@@ -520,13 +520,14 @@ main {
 
     .icone-menu img {
         display: block;
+        position: absolute;
         max-width:40x;
         max-height:40px;  
     }
 
     .nav-menu {
         display: block;
-        position: fixed;
+        position: absolute;
     }
 
     .mostrar {
@@ -660,10 +661,10 @@ main {
 }
 
 .space img {
-    max-width:150px;
-    max-height:150px;
+    max-width:130px;
+    max-height:130px;
     width: auto;
-    height: 120px;
+    height: auto;
     padding-bottom: 10px;
 }
 
@@ -684,7 +685,6 @@ main {
 }
 
 #faculdade .iconify {
-    color: #000000;
     font-size: 60px;
   
 }
@@ -911,15 +911,15 @@ main {
 }
 
 .space img {
-    max-width:300px;
-    max-height:150px;
+    max-width:120px;
+    max-height:120px;
     width: auto;
-    height: 110px;
+    height: auto;
     padding-bottom: 10px;
 }
 
 .space::after {
-    width: 50px;
+    width: 70px;
    
 }
     
