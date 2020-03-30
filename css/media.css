@@ -205,16 +205,18 @@ main {
     width: 100%;
 }
 
-.icone-menu{
+.icone-menu img {
     display: block;
-    position: absolute;
+    position: fixed;
+    max-width:50x;
+    max-height:50px;
     margin-left: 0px;
     padding-top: 5px;
 }
 
 .nav-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     width: 100%;
     transition: all 0.4s;
     margin-left: -120%;
@@ -283,7 +285,7 @@ main {
         width: 30%;
         border-left: 5px solid #f7f5e6;
         border-bottom: 5px solid #f7f5e6;
-        margin-left: 220px;
+        margin-left: 240px;
         padding-left: 5px;
     }
     
@@ -515,11 +517,18 @@ main {
     
 
     /*menu-secundario*/
-    .icone-menu{
-        width: 40px;
-        height: 40px;
-    
+
+    .icone-menu img {
+        display: block;
+        max-width:40x;
+        max-height:40px;  
     }
+
+    .nav-menu {
+        display: block;
+        position: fixed;
+    }
+
     .mostrar {
         width: 85%;
         }
@@ -662,9 +671,7 @@ main {
     content: '';
     width: 160px;
     height: 2px;
-    background: #333a56;
-    display: block;
-    margin: 20px auto;
+   
 }
     
 
@@ -717,13 +724,13 @@ main {
 }
 
 #email {
-    padding: 15px 95px;
+    padding: 15px 72px;
     margin:0px 20px 50px 20px;
     font-size: 20px;
 }
 
 #whatsapp {
-    padding: 15px 80px;
+    padding: 15px 60px;
     margin:0px 20px 40px 20px;
     font-size: 20px;
 }
@@ -749,7 +756,9 @@ main {
 }
 
 #rodape p {
-    padding-bottom: 15px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 13px;
 }
 }
 
@@ -786,6 +795,12 @@ main {
 
 
     /*menu-secundario*/
+
+    .icone-menu img {
+        display: block;
+        max-width:40x;
+        max-height:40px;   
+    }
     
     .mostrar {
         width: 85%;
@@ -928,13 +943,14 @@ main {
 /*-----Contato-----*/
 
 #email {
-    padding: 10px 60px;
-    margin:0px 20px 50px 20px;
+    padding: 10px 48px;
+    margin:0px 20px 40px 20px;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 #whatsapp {
-    padding: 10px 40px;
+    padding: 12px 40px;
     margin:0px 20px 40px 20px;
     font-size: 18px;
 }
@@ -952,7 +968,7 @@ main {
 
 #rodape {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 18px;
 }
 
 }

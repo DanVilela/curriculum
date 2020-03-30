@@ -78,12 +78,20 @@ main {
 
 /*---------Menu secundario--------*/
 
-.icone-menu{
-    display: none;
-    width: 50px;
-    height: 50px;
-    color: #333a56;
+c
+
+.icone-menu {
     margin-left: 0px;
+    padding: 3px;
+    
+}
+
+.icone-menu img {
+    display: none;
+    max-width:40x;
+    max-height:40px;
+    width: auto;
+    height: auto;
 }
 
 .nav-menu {
@@ -250,11 +258,6 @@ main {
     padding-bottom: 200px;
 }
 
-#card2 {
-    
-
-}
-
 .space {
     width: 100%;
 }
@@ -324,7 +327,7 @@ main {
 }
 
 #fale-conosco p {
-    font-size: 25px;
+    font-size: 2px;
     border-top: 2px solid #333a56; 
     border-bottom: 2px solid #333a56; 
     background-color: rgba(247, 245, 230, 0.3);
