@@ -7,7 +7,6 @@ body {
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 1px;
     text-align: center; 
@@ -15,17 +14,16 @@ body {
 
 header {
     width: 100%;
-    vertical-align: middle;
 }
 
 h2 {
-    font-size: 30px;
-    text-align: justify;
-    margin: 100px 0;
-    padding: 20px 70px;
-    font-weight: 200;
     background-color: #52658f;
     color: #f7f5e6;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 100px 0;
+    padding: 20px 70px;
+    text-align: justify;
 
 }
 
@@ -35,32 +33,35 @@ h2 {
 
 
 #menu-principal {
+    align-items: center;
+    background-color: #333a56;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 0px;
-    background-color: #333a56;
+    
 }
 
 #menu-principal a {
-    text-decoration: none;
     color: #BEBEBE;
     padding-left: 50px;
+    text-decoration: none;
 }
 
 #logo img {
+    color: #f7f5e6;
     height: 70px;
     weight: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #f7f5e6;
+    
 }
 
 #redes-sociais {
+    box-sizing: border-box;menu
     display: flex;
-    box-sizing: border-box;
-    margin-top: 8px;
     font-size: 32px;
+    margin-top: 8px;
+    
 }
 
 .iconify {
@@ -71,14 +72,11 @@ h2 {
 /*---------Main--------*/
 
 main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image:repeating-linear-gradient(135deg, rgba(236, 236, 236,0.02) 0px, rgba(236, 236, 236,0.02) 26px,rgba(210, 210, 210,0.02) 26px, rgba(210, 210, 210,0.02) 52px,rgba(184, 184, 184,0.02) 52px, rgba(184, 184, 184,0.02) 78px,rgba(158, 158, 158,0.02) 78px, rgba(158, 158, 158,0.02) 104px,rgba(131, 131, 131,0.02) 104px, rgba(131, 131, 131,0.02) 130px,rgba(105, 105, 105,0.02) 130px, rgba(105, 105, 105,0.02) 156px,rgba(79, 79, 79,0.02) 156px, rgba(79, 79, 79,0.02) 182px,rgba(53, 53, 53,0.02) 182px, rgba(53, 53, 53,0.02) 208px),repeating-linear-gradient(45deg, rgba(213, 213, 213,0.02) 0px, rgba(213, 213, 213,0.02) 26px,rgba(192, 192, 192,0.02) 26px, rgba(192, 192, 192,0.02) 52px,rgba(171, 171, 171,0.02) 52px, rgba(171, 171, 171,0.02) 78px,rgba(150, 150, 150,0.02) 78px, rgba(150, 150, 150,0.02) 104px,rgba(129, 129, 129,0.02) 104px, rgba(129, 129, 129,0.02) 130px,rgba(108, 108, 108,0.02) 130px, rgba(108, 108, 108,0.02) 156px,rgba(87, 87, 87,0.02) 156px, rgba(87, 87, 87,0.02) 182px,rgba(66, 66, 66,0.02) 182px, rgba(66, 66, 66,0.02) 208px),linear-gradient(90deg, #FFF,#FFF);
 }
 
 
-/*---------Menu secundario--------*/
-
-c
+/*---------Nav Menu--------*/
 
 .icone-menu {
     margin-left: 0px;
@@ -92,12 +90,13 @@ c
     max-height:40px;
     width: auto;
     height: auto;
+    
 }
 
 .nav-menu {
     position: block;
-    width: 100%;
     transition: all 0.8s;
+    width: 100%;
 }
 
 .mostrar {
@@ -105,42 +104,41 @@ c
     }
 
     
-#menu-secundario {
-
+#nav-bar {
     font-size: 32px;
     font-weight: 1;
     
 }
 
-#menu-secundario ul {
-    list-style: none;
+#nav-bar ul {
     display: flex;
+    list-style: none;
     text-align: center;
     
 }
 
-#menu-secundario ul li {
+#nav-bar ul li {
     padding: 10px;
     width: 100%; 
 }
 
 
-#menu-secundario ul li a {
-    text-decoration: none;
+#nav-bar ul li a {
     color: #333a56;
+    text-decoration: none;
+  
 }
 
-#menu-secundario ul:hover {
+#nav-bar ul:hover {
     background-color: rgba(82, 101, 143, 0.7);
     color: #f7f5e6;
     transition: 3s;
 }
 
-#menu-secundario ul li:hover {
+#nav-bar ul li:hover {
     background-color: rgba(247, 245, 230, 1);
     border-left: 3px solid #333a56;
     border-right: 3px solid #333a56;
-
 }
 
 /*---------- Perfil ----------*/
@@ -152,39 +150,40 @@ c
 #perfil {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    margin-top:170px;
+    margin-top:120px;
 
 }
 
 #perfil img {
     width: 280px;
-    border-radius: 30%;
     border: 1px solid #333a56;
+    border-radius: 30%;
 
 }
 
 #perfil h1 {
+    color: #333a56 ;
+    font-size: 60px ;
     letter-spacing: 8px;
     margin: 5px auto;
-    font-size: 60px ;
-    margin-top: 70px;
-    color: #333a56 ;
+    margin-top: 50px;
+    
 }
 
 #perfil h1::after {
     content: '';
-    width: 200px;
-    height: 2px;
     background: #333a56;
     display: block;
+    width: 200px;
+    height: 2px;
     margin: 20px auto;
 }
 
 #perfil p {
+    color: #333a56;
+    font-size: 35px;  
     letter-spacing: 3px;
     margin-bottom: 170px;
-    font-size: 35px;  
-    color: #333a56;
 }
 
 /*-----Sobre Mim-----*/
@@ -196,26 +195,25 @@ c
 }
 
 #sobre-texto {
-    
+    background-color: rgba(247, 245, 230, 0.3);
     border-top: 2px solid #333a56; 
     border-bottom: 2px solid #333a56; 
-    padding: 30px 0 30px 0;
     margin: 30px auto 30px auto;
-    background-color: rgba(247, 245, 230, 0.3);
-
+    padding: 30px 0 30px 0;
+    
 }
 
 #sobre-texto blockquote {
-    text-align: justify;
-    padding: 0px 70px;
-    margin-left: 135px;
-    font-size: 22px;
     border-left: 5px solid  #333a56;
-    letter-spacing: 3px;
     background-position: left;
     background-size: 0% 100%;
     background-image: linear-gradient(rgba(82, 101, 143,0.5), rgba(82, 101, 143, 0.5));
     background-repeat: no-repeat;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-left: 135px;
+    text-align: justify;
+    padding: 0px 70px;
     transition: all 500ms ease-in-out;
 }
 
@@ -225,13 +223,13 @@ c
   
       
 #sobre-texto p {
-    text-align: justify;
-    padding: 20px 70px 20px 70px;
+    font-size: 20px;
     margin-block-start: 30px;
     margin-block-end: 30px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 20px;
+    padding: 20px 70px 20px 70px;
+    text-align: justify;
     transform-origin: 0 100%;
     
 }
@@ -244,19 +242,20 @@ c
 
 
 #card-container {
+    background-color: rgba(247, 245, 230, 0.3);
     box-sizing: border-box;
+    border-bottom: 2px solid #333a56; 
+    border-top: 2px solid #333a56; 
     border-radius: 0 0 2px 2px;
     justify-content: left;
-    border-top: 2px solid #333a56; 
-    border-bottom: 2px solid #333a56; 
-    padding: 50px 0 50px 0;
     margin: 50px auto 50px auto;
-    background-color: rgba(247, 245, 230, 0.3)
+    padding: 50px 0 50px 0;
+    
 }
 
 .dual-cards {
-    display: flex;
     box-sizing: border-box;
+    display: flex;
     justify-content: space-around;
     margin: 20px;
 }
@@ -266,7 +265,7 @@ c
 }
  
 #card1 {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .space {
@@ -287,20 +286,18 @@ c
 
 .formacao {
     width: 100%;
-    box-sizing: border-box;
-    border-radius: 0 0 2px 2px;
     justify-content: left;
 }
 
 #faculdade {
-    display: flex;
+    background-color: rgba(247, 245, 230, 0.3);
     box-sizing: border-box;
-    justify-content: space-around;
-    border-top: 2px solid #333a56; 
     border-bottom: 2px solid #333a56; 
-    padding: 50px 0 50px 0;
+    border-top: 2px solid #333a56; 
+    display: flex;
+    justify-content: space-around;
     margin: 50px auto 50px auto;
-    background-color: rgba(247, 245, 230, 0.3)
+    padding: 50px 0 50px 0;
 }
 
 #faculdade .iconify {
@@ -309,16 +306,12 @@ c
 }
 
 #direito {
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 25px;
     margin: auto;
 }
 
 #gestao {
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 25px;
     margin: auto;
@@ -331,20 +324,20 @@ c
 }
 
 #fale-conosco {
-    justify-content: center;
     display: inline-block;
-    padding: 20px 0 20px 0;
+    justify-content: center;
     margin: 20px auto 20px auto;
+    padding: 20px 0 20px 0;
 }
 
 #fale-conosco p {
-    font-size: 22px;
+    background-color: rgba(247, 245, 230, 0.3);
     border-top: 2px solid #333a56; 
     border-bottom: 2px solid #333a56; 
-    background-color: rgba(247, 245, 230, 0.3);
-    padding: 8px 0;
+    font-size: 22px;
     margin-bottom: 100px;
     margin-top: -40px;
+    padding: 8px 0;
 }
 
 #contacts {
@@ -357,34 +350,33 @@ c
     transition: 0.7s;
 }
 
-#contacts .iconify
-{
+#contacts .iconify {
     line-height: 3px;
 }
 
 #email {
     background-color: #f44336; 
-    border: none;
     color: white;
-    padding: 10px 45px;
-    text-decoration: none;
+    cursor: pointer;
     display: inline-block;
     font-size: 20px;
     margin: 0px 100px;
-    cursor: pointer;
+    padding: 10px 45px;
+    text-decoration: none;
+    
   }
 
 
   #whatsapp {
     background-color: #4CAF50;
-    border: none;
     color: white;
-    padding: 10px 30px;
-    text-decoration: none;
+    cursor: pointer;
     display: inline-block;
     font-size: 20px;
     margin: 0px 100px;
-    cursor: pointer;
+    padding: 11px 30px;
+    text-decoration: none;
+    
   }
 
 
@@ -392,14 +384,13 @@ c
 
 
 #sociais a {
-    text-decoration: none;
-    justify-content: center; 
+    background-color: rgba(247, 245, 230, 0.3);
     display: inline-block;
-    margin: 80px 60px;
-    font-size: 16px ;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px ;
+    margin: 80px 60px;
     padding: 5px 40px;
-    background-color: rgba(247, 245, 230, 0.3)
+    text-decoration: none;
 }
 
 .border {
@@ -410,10 +401,10 @@ c
 
 #rodape {
     width: 100%;
-    font-size: 16px;
     background-color:#333a56;
-    padding: 20px 0px;
     color: #f7f5e6;
+    font-size: 16px;
+    padding: 20px 0px;
 }
 
 

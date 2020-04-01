@@ -1,7 +1,7 @@
 // Click do Menu (ida e volta)
 
 var btnMenu = document.getElementById ('btn-menu');
-var nav = document.getElementById ('menu-secundario');
+var nav = document.getElementById ('nav-bar');
 
 
 btnMenu.addEventListener ('click' , function () {
