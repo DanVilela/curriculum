@@ -1,4 +1,4 @@
-/*----Large Device----*/
+                                                        /*----------------------Large Device----------------------*/
 
 @media screen and (max-width:1200px) {
     
@@ -7,9 +7,7 @@
         letter-spacing: 10px;
     }
 
-
-    /*menu-principal*/
-
+    /*-----Menu-principal-----*/
 
     #logo img {
         height: 100px;
@@ -21,7 +19,7 @@
     }
     
 
-/*menu-secundario*/
+/*-----Nav-menu-bar-----*/
 
 
 main {
@@ -33,8 +31,7 @@ main {
 }
 
 
-
-#menu-secundario {
+#nav-bar {
     font-size: 40px;
 }
 
@@ -120,51 +117,51 @@ main {
 }
 
 #email {
-    padding: 20px 98px;
-    margin: 0px 60px 50px 0px;
     font-size: 28px;
-
+    margin: 0px 60px 50px 0px;
+    padding: 20px 98px;
 }
 
 #whatsapp {
-    padding: 20px 85px;
-    margin: 0px 0px 50px 60px;
     font-size: 28px;
-
+    margin: 0px 0px 50px 60px;
+    padding: 20px 85px;
 }
 
 #sociais a {
     display: inline-block;
     font-size: 22px ;
-    padding: 5px 20px;
     margin: 100px 40px;
+    padding: 5px 20px;
 }
 
 /*----------Footer---------*/
+
+
 #rodape {
     font-size: 22px;
     letter-spacing: 2px;
     line-height: 30px;
 }
-
 }
 
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*----Medium Device----*/
+
+                                                       /*----------------------Medium Device----------------------*/
 @media screen and (max-width:790px) {
     
     h2 {
         font-size: 32px;
-        text-align: center;
         letter-spacing: 10px;
-        padding: 5px 0px;
         margin: 0px;
+        padding: 5px 0px;
+        text-align: center;
     }
 
 
-    /*menu-principal*/
+/*------menu-principal-----*/
 
 
     #menu-principal {
@@ -178,99 +175,97 @@ main {
     }
 
     #logo img {
-        height: 80px;
         color: #f7f5e6;
+        height: 80px;
         padding-top: 10px;
-
     }
        
     #redes-sociais {
         width: 100%;
+        border-top: 3px solid #f7f5e6;
         display: block;
         font-size: 35px;
-        padding: 10px 0px 0px 0px;
         margin: 0px;
-        border-top: 3px solid #f7f5e6;
+        padding: 10px 0px 0px 0px;
     }
     
     
 
-/*menu-secundario*/
+/*****Nav-menu-bar*****/
 
 main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     overflow: hidden;
     width: 100%;
 }
 
 .icone-menu img {
     display: block;
-    position: absolute;
-    max-width:50x;
-    max-height:50px;
     margin-left: 0px;
+    max-width:60px;
+    max-height:60px;
     padding-top: 5px;
+    position: absolute;
 }
 
 .nav-menu {
-    display: block;
-    position: absolute;
     width: 100%;
-    transition: all 0.4s;
-    margin-left: -120%;
     background-color: rgba(82, 101, 143, 0.7);
+    display: block;
+    margin-left: -120%;
+    position: absolute;
+    transition: all 0.4s;
 }
 
 .mostrar {
     width: 85%;
-    margin-left: 50px;
+    margin-left: 70px;
     }
 
-    #menu-secundario ul {
-        font-size: 25px; 
+    #nav-bar ul {
         display: block;
+        font-size: 25px; 
     }
     
-    #menu-secundario ul li a {
+    #nav-bar ul li a {
         color: #f7f5e6;
-
     }
     
-    #menu-secundario ul:hover {
+    #nav-bar ul:hover {
         background-color: rgba(82, 101, 143, 0);
         color: #f7f5e6;
         transition: 3s;
     }
     
-    #menu-secundario ul li:hover {
+    #nav-bar ul li:hover {
         background-color: rgba(82, 101, 143, 0);
         border: 0px;
     }
     
-    #menu-secundario ul li a:hover {
+    #nav-bar ul li a:hover {
         background-color: #333a56; 
         transition: 2s;
     }
     
-    #menu-secundario {
+    #nav-bar {
         margin-top: 0px;
     }
     
     .menu1 {
         width: 15%;
-        display: block;
         border-bottom: 5px solid #f7f5e6;
         border-left: 5px solid #f7f5e6;
+        display: block;
         padding: 0px;
     }
     
     .menu2 {
         width: 24%;
-        display: block;
         border-left: 5px solid #f7f5e6;
         border-bottom: 5px solid #f7f5e6;
+        display: block;
         margin-left: 100px;
     }
     .menu3 {
@@ -295,13 +290,10 @@ main {
 
 #corpo {
     min-height: 85vh;
-
 }
 
 #perfil {
     margin-top: 150px;
-
-
 }
 
 #perfil img {
@@ -310,22 +302,23 @@ main {
 
 
 #perfil h1 {
+    color: #333a56;
+    font-size: 50px ;
     letter-spacing: 5px;
     margin: 20px 5px;
-    font-size: 50px ;
-    color: #333a56 ;
+    
 }
 
 #perfil h1::after {
     content: '';
-    width: 150px;
     margin: 10px auto;
+    width: 150px;
 }
 
 #perfil p {
-    letter-spacing: 5px;
-    font-size: 35px;  
     color: #333a56;
+    font-size: 35px;  
+    letter-spacing: 5px;
     margin-top: 10px;
 }
 
@@ -339,23 +332,24 @@ main {
 }
 
 #sobre-texto blockquote {
-    padding: 0px 30px;
+    font-size: 23px;
+    letter-spacing: 0px;
     margin-top: 10px;
     margin-left: 100px;
-    letter-spacing: 0px;
-    font-size: 23px;
+    padding: 0px 30px;
 }
 
 #sobre-texto p {
-    padding: 0px 30px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
     font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 0px 30px;
 }
 
 
-/*-----Tecnologias-----*/
 
+
+/*-----Tecnologias-----*/
 
 
 .dual-cards h4 {
@@ -363,9 +357,8 @@ main {
 }
  
 #card1 {
-    padding-bottom: 0px;
     display: inline-block;
-    
+    padding-bottom: 0px;
 }
 
 #card2 {
@@ -386,10 +379,10 @@ main {
 
 .space::after {
     content: '';
-    width: 130px;
-    height: 5px;
     background: #333a56;
     display: block;
+    width: 130px;
+    height: 5px;
     margin: 20px auto;
 }
 
@@ -406,7 +399,6 @@ main {
 
 #faculdade .iconify {
     font-size: 65px;
-  
 }
 
 #faculdade h4 {
@@ -423,11 +415,11 @@ main {
 }
 
 #gestao {
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: auto;
+    text-align: center;
+    text-decoration: none;
 }
 
 
@@ -446,27 +438,27 @@ main {
 }
 
 #email {
-    padding: 20px 95px;
     margin:0px 20px 50px 20px;
+    padding: 20px 95px;
     
 }
 
 #whatsapp {
-    padding: 20px 80px;
     margin:0px 20px 40px 20px;
+    padding: 20px 80px;
 }
 
 #sociais a {
     display: flex;
-    margin: 30px 0px;
-    justify-content: center;
     font-size: 18px;
+    justify-content: center;
+    margin: 30px 0px;
     padding: 10px 12px;
 }
 
 /*----------Footer---------*/
 #rodape {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 }
@@ -481,18 +473,18 @@ main {
 
     h2 {
         font-size: 25px;
-        text-align: center;
         letter-spacing: 6px;
-        padding: 10px 0px;
         margin: 0px;
+        padding: 10px 0px;
+        text-align: center;
     }
 
 
     /*menu-principal*/
 
     #menu-principal {
-        display: block;
         width: 100%;
+        display: block;
     }
 
     #menu-principal a {
@@ -502,27 +494,27 @@ main {
     }
 
     #logo img {
-        height: 70px;
         color: #f7f5e6;
+        height: 70px;
         padding-top: 10px;
 
     }
        
     #redes-sociais {
+        border-top: 3px solid #f7f5e6;
         display: block;
         font-size: 30px;
-        padding-top: 10px;
-        border-top: 3px solid #f7f5e6;
+        padding-top: 10px;  
     }
     
 
-    /*menu-secundario*/
+    /*****Nav-menu-bar*****/
 
     .icone-menu img {
         display: block;
-        position: absolute;
         max-width:40x;
         max-height:40px;  
+        position: absolute;
     }
 
     .nav-menu {
@@ -534,63 +526,61 @@ main {
         width: 85%;
         }
     
-        #menu-secundario ul {
-            border: 3px solid #f7f5e6;
-            padding: 0px;
-            font-size: 25px;
+    #nav-bar ul {
+        border: 3px solid #f7f5e6;
+        padding: 0px;
+        font-size: 25px;
         }
 
-        #menu-secundario ul li {
-            padding: 0px;
-        }
-
-
-        #menu-secundario ul a {
-            padding: 5px;
+    #nav-bar ul li {
+        padding: 0px;
         }
 
 
-        .menu1 {
-            width: 100%;
-            display: block;
-            border-bottom: 3px solid #f7f5e6;
-            border-left: none;
-            padding: 0px;
+    #nav-bar ul a {
+        padding: 5px;
         }
-        
-        .menu2 {
-            width: 100%;
-            display: block;
-            border: none;
-            border-bottom: 3px solid #f7f5e6;
-            margin-left: 0px;
-            margin-top: 0px;
 
-        
-        }
-        .menu3 {
-            width: 100%;
-            display: block;
-            border: none;
-            border-bottom: 3px solid #f7f5e6;
-            margin-left: 0px;
-            margin-top: 0px;
 
+    .menu1 {
+        width: 100%;
+        border-bottom: 3px solid #f7f5e6;
+        border-left: none;
+        display: block;
+        padding: 0px;
         }
         
-        .menu4 {
-            width: 100%;
-            display: block;
-            border: none;
-            margin-left: 0px;
-            margin-top: 0px;
+    .menu2 {
+        width: 100%;
+        border: none;
+        border-bottom: 3px solid #f7f5e6;
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px;
 
+        
+        }
+    .menu3 {
+        width: 100%;
+        display: block;
+        border: none;
+        border-bottom: 3px solid #f7f5e6;
+        margin-left: 0px;
+        margin-top: 0px;
+        }
+        
+    .menu4 {
+        width: 100%;
+        border: none;
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px;
         }
         
         
    /*Perfil*/
 
- #corpo {
+#corpo {
     min-height: 85vh;
    }
 
@@ -604,10 +594,10 @@ main {
 }
 
 #perfil h1 {
+    color: #333a56;
+    font-size: 35px;
     letter-spacing: 5px;
     margin: 10px;
-    font-size: 35px ;
-    color: #333a56 ;
 }
 
 #perfil h1::after {
@@ -616,10 +606,10 @@ main {
 }
 
 #perfil p {
-    letter-spacing: 5px;
-    margin-bottom: 110px;
-    font-size: 25px;  
     color: #333a56; 
+    font-size: 25px;  
+    letter-spacing: 5px;
+    margin-bottom: 110px;  
 }
 
 /*-----Sobre Mim-----*/
@@ -773,10 +763,10 @@ main {
 
     h2 {
         font-size: 22px;
-        text-align: center;
         letter-spacing: 6px;
-        padding: 10px 0px;
         margin: 0px;
+        padding: 10px 0px;
+        text-align: center;
     }
 
     p {
@@ -794,7 +784,7 @@ main {
     }
 
 
-    /*menu-secundario*/
+    /*****Nav-menu-bar*****/
 
     .icone-menu img {
         display: block;
@@ -804,30 +794,30 @@ main {
     
     .mostrar {
         width: 85%;
-        }
+    }
     
-        #menu-secundario ul {
+        #nav-bar ul {
             border: 5px solid #f7f5e6;
             padding: 0px;
             font-size: 22px;
-        }
+    }
 
-        #menu-secundario ul li {
+        #nav-bar ul li {
             padding: 0px;
-        }
+    }
 
 
-        #menu-secundario ul a {
+        #nav-bar ul a {
             padding: 5px;
-        }
+    }
 
 
         .menu1 {
             width: 100%;
-            display: block;
             border-bottom: 5px solid #f7f5e6;
+            display: block;
             padding: 0px;
-        }
+    }
         
         .menu2 {
             width: 100%;
@@ -838,7 +828,7 @@ main {
             margin-top: 0px;
 
         
-        }
+    }
         .menu3 {
             width: 100%;
             display: block;
@@ -847,22 +837,21 @@ main {
             margin-left: 0px;
             margin-top: 0px;
 
-        }
+    }
         
         .menu4 {
             width: 100%;
-            display: block;
             border: none;
+            display: block;
             margin-left: 0px;
             margin-top: 0px;
 
-        }
+    }
 
-   /*Perfil*/
+/*-----Perfil------*/
 
 #corpo {
     min-height: 85vh;
-
 }
 
 #perfil {
@@ -876,31 +865,32 @@ main {
 }
 
 #perfil h1 {
+    color: #333a56;
+    font-size: 35px ;
     letter-spacing: 5px;
     margin: 0px;
-    font-size: 35px ;
-    color: #333a56 ;
+    
 }
 
 #perfil p {
+    font-size: 25px;
     letter-spacing: 5px;
-   font-size: 25px;
 }
 
 /*-----Sobre Mim-----*/
 
 
 #sobre-texto blockquote {
-    margin-top: 0px;
-    margin-left: 10px;
     font-size: 16px;
+    margin-left: 10px;
+    margin-top: 0px;
 }
 
 #sobre-texto p {
-    padding: 0px 30px;
-    margin-bottom: 10px;
-    font-size: 16px ;
+    font-size: 16px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 0px 30px;
 }
 
 
@@ -920,7 +910,6 @@ main {
 
 .space::after {
     width: 70px;
-   
 }
     
 
@@ -943,26 +932,24 @@ main {
 /*-----Contato-----*/
 
 #email {
-    padding: 10px 48px;
-    margin:0px 20px 40px 20px;
     font-size: 18px;
     letter-spacing: 2px;
+    margin:0px 20px 40px 20px;
+    padding: 10px 48px;
 }
 
 #whatsapp {
-    padding: 12px 40px;
-    margin:0px 20px 40px 20px;
     font-size: 18px;
+    margin:0px 20px 40px 20px;
+    padding: 12px 40px;
 }
 
 #sociais a {
+    font-size: 14px;
+    justify-content: center;
     margin: 30px 0px;
     padding: 5px;
-    justify-content: center;
-    font-size: 14px;
-
 }
-
 
 /*----------Footer---------*/
 
@@ -970,7 +957,6 @@ main {
     font-size: 12px;
     line-height: 18px;
 }
-
 }
     
 
