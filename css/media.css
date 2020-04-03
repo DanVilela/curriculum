@@ -1,4 +1,4 @@
-                                                        /*----------------------Large Device----------------------*/
+                                                        /*==================Large Device==================*/
 
 @media screen and (max-width:1200px) {
     
@@ -7,7 +7,7 @@
         letter-spacing: 10px;
     }
 
-    /*-----Menu-principal-----*/
+/*-----Menu-principal-----*/
 
     #logo img {
         height: 100px;
@@ -135,7 +135,7 @@ main {
     padding: 5px 20px;
 }
 
-/*----------Footer---------*/
+/*-----Footer-----*/
 
 
 #rodape {
@@ -146,10 +146,10 @@ main {
 }
 
 
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*============================================================================================================================================================================================*/
 
 
-                                                       /*----------------------Medium Device----------------------*/
+                                                       /*==================Medium Device/Tablets==================*/
 @media screen and (max-width:790px) {
     
     h2 {
@@ -191,7 +191,7 @@ main {
     
     
 
-/*****Nav-menu-bar*****/
+/*-----Nav-menu-bar-----*/
 
 main {
     display: flex;
@@ -457,6 +457,7 @@ main {
 }
 
 /*----------Footer---------*/
+
 #rodape {
     font-size: 16px;
     line-height: 30px;
@@ -466,7 +467,7 @@ main {
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*----Small Device----*/
+                                                       /*==================Small Device==================*/
 
 @media screen and (max-width: 600px) {
 
@@ -480,7 +481,7 @@ main {
     }
 
 
-    /*menu-principal*/
+/*-----Menu-principal-----*/
 
     #menu-principal {
         width: 100%;
@@ -508,7 +509,7 @@ main {
     }
     
 
-    /*****Nav-menu-bar*****/
+/*-----Nav-menu-bar-----*/
 
     .icone-menu img {
         display: block;
@@ -524,6 +525,7 @@ main {
 
     .mostrar {
         width: 85%;
+        margin-left: 45px;
         }
     
     #nav-bar ul {
@@ -536,11 +538,9 @@ main {
         padding: 0px;
         }
 
-
     #nav-bar ul a {
         padding: 5px;
         }
-
 
     .menu1 {
         width: 100%;
@@ -557,9 +557,8 @@ main {
         display: block;
         margin-left: 0px;
         margin-top: 0px;
-
-        
         }
+
     .menu3 {
         width: 100%;
         display: block;
@@ -578,7 +577,7 @@ main {
         }
         
         
-   /*Perfil*/
+/*-----Perfil-----*/
 
 #corpo {
     min-height: 85vh;
@@ -662,7 +661,6 @@ main {
     content: '';
     width: 160px;
     height: 2px;
-   
 }
     
 
@@ -676,7 +674,6 @@ main {
 
 #faculdade .iconify {
     font-size: 60px;
-  
 }
 
 #faculdade h4 {
@@ -686,7 +683,6 @@ main {
 #faculdade p {
     font-size: 20px;
 }
-
 
 #direito {
     margin-bottom: 70px;
@@ -732,7 +728,7 @@ main {
 }
 
 
-/*----------Footer---------*/
+/*-----Footer-----*/
 
 #rodape {
     font-size: 14px;
@@ -756,7 +752,7 @@ main {
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/*---- So Small Device----*/
+                                                      /*================== So Small Device ==================*/
 
 @media screen and (max-width: 375px) {
 
@@ -773,7 +769,7 @@ main {
         font-size: 13px;
     }
 
-/*Menu-Principal*/
+/*-----Menu-Principal-----*/
 
     #logo img {
         height: 70px;
@@ -784,7 +780,7 @@ main {
     }
 
 
-    /*****Nav-menu-bar*****/
+/*-----Nav-menu-bar-----*/
 
     .icone-menu img {
         display: block;
@@ -806,11 +802,9 @@ main {
             padding: 0px;
     }
 
-
         #nav-bar ul a {
             padding: 5px;
     }
-
 
         .menu1 {
             width: 100%;
@@ -827,7 +821,6 @@ main {
             margin-left: 0px;
             margin-top: 0px;
 
-        
     }
         .menu3 {
             width: 100%;
@@ -836,7 +829,6 @@ main {
             border-bottom: 5px solid #f7f5e6;
             margin-left: 0px;
             margin-top: 0px;
-
     }
         
         .menu4 {
@@ -845,7 +837,6 @@ main {
             display: block;
             margin-left: 0px;
             margin-top: 0px;
-
     }
 
 /*-----Perfil------*/
