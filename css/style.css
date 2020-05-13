@@ -209,7 +209,7 @@ main {
     background-size: 0% 100%;
     background-image: linear-gradient(rgba(82, 101, 143,0.5), rgba(82, 101, 143, 0.5));
     background-repeat: no-repeat;
-    font-size: 22px;
+    font-size: 21px;
     letter-spacing: 3px;
     margin-left: 135px;
     text-align: justify;
@@ -223,7 +223,7 @@ main {
   
       
 #sobre-texto p {
-    font-size: 20px;
+    font-size: 19px;
     margin-block-start: 30px;
     margin-block-end: 30px;
     margin-inline-start: 0px;
@@ -273,8 +273,8 @@ main {
 }
 
 .space img {
-    max-width:120x;
-    max-height:120px;
+    max-width:110x;
+    max-height:110px;
     width: auto;
     height: auto;
     padding-bottom: 12px;
@@ -403,7 +403,7 @@ main {
     width: 100%;
     background-color:#333a56;
     color: #f7f5e6;
-    font-size: 16px;
+    font-size: 15px;
     padding: 20px 0px;
 }
 
